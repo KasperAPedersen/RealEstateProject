@@ -1,0 +1,23 @@
+@media only screen and (max-width: 425px) {
+    #searchBar form {
+        padding: 15px;
+    }
+
+    #searchBar input, #searchBar button, #searchBar select {
+        padding: 15px 30px;
+        width: 33%;
+        font-size: 1.8em;
+    }
+
+    #searchBar button {
+        width: 10%;
+    }
+
+    #listingHeader h3 {
+        font-size: 1.8em;
+    }
+    
+    #listingHeader button {
+        font-size: 1.8em;
+    }
+}

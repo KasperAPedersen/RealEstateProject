@@ -1,0 +1,38 @@
+@media only screen and (max-width: 425px) {
+    .card .cardImage {
+        width: 100%;
+        height: 500px;
+    }
+
+    .card .cardDetails {
+        width: 100%;
+        font-size: 1.8em;
+    }
+
+    .card .cardDetails .cardStats {
+        margin: 20px 0px;
+    }
+    
+    .cardContact button {
+        padding: 5px 30px;
+        font-size: 1.5em;
+    }
+
+    .card .cardImage p {
+        font-size: 1.8em;
+    }
+
+    .card .cardDetails h3 {
+        font-size: 1.5em;
+        line-height: 25px;
+    }
+    
+    .cardStats p {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    .cardStats i {
+        margin-right: 15px;
+    }
+}

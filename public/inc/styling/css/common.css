@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #F6F4EF;
+}
+
+header {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+    padding: 15px 30px;
+}
+
+
+button {
+    cursor: pointer;
+}

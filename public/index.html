@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lvl 15 bolig side</title>
+
+        <!-- FontAwesome & w3.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="inc/styling/css/common.css" type="text/css">
+        <link rel="stylesheet" href="inc/styling/css/card.css" type="text/css">
+        <link rel="stylesheet" href="inc/styling/css/main.css" type="text/css">
+
+        <!-- Responsive -->
+        <link rel="stylesheet" href="inc/styling/css/responsive/425/card.css" type="text/css" media="screen and (max-width: 425px)">
+        <link rel="stylesheet" href="inc/styling/css/responsive/425/modal.css" type="text/css" media="screen and (max-width: 425px)">
+        <link rel="stylesheet" href="inc/styling/css/responsive/425/main.css" type="text/css" media="screen and (max-width: 425px)">
+    </head>
+    <body>
+        <div id="modal"></div>
+
+        <div id="swp" class="container">
+            <header>
+                <h1>Logo</h1>
+            </header>
+            <main>
+                <!-- listing Search bar -->
+                <div id="searchBar">
+                    <form id="searchForm">
+                        <input type="text" placeholder="Søg" id="searchInput" />
+                        <button class="w3-green" id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        
+                    </form>
+                </div>
+                <!-- Listing container -->
+                <div id="listingBg">
+                    <div id="listingHeader">
+                        <h3><span id="listingCount">X</span> boliger til salg</h3>
+                        <!--<button><i class="fa fa-sort-amount-desc" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-th-large" aria-hidden="true"></i></button>-->
+                        <div class="clearFix"></div>
+                    </div>
+                    <div id="listingBody"></div>
+                </div>
+            </main>
+        </div>
+        <script src="inc/styling/js/index.js"></script>
+        <script src="inc/styling/js/contact.js"></script>
+        <script src="inc/styling/js/viewListing.js"></script>
+        <script src="inc/styling/js/listingSlideshow.js"></script>
+        <script src="inc/styling/js/createCard.js"></script>
+    </body>
+</html>

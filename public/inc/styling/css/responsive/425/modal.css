@@ -1,0 +1,26 @@
+@media only screen and (max-width: 425px) {
+    #modal p {
+        font-size: 2em;
+    }
+
+    #modal .modalStats p {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    #modal .modalStats i {
+        margin-right: 15px;
+    }
+
+    #modal h2 {
+        font-size: 2.5em;
+    }
+
+    #modal header>span {
+        font-size: 2.5em;
+    }
+
+    #modal form {
+        font-size: 2em;
+    }
+}
